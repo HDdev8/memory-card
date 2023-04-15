@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #be123c;
+  background-color: #d9f99d;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  display: grid;
+  justify-content: center;
+  grid-column: 1/4;
+}
+
+h3 {
+  font-size: 2rem;
+  display: grid;
+  justify-content: center;
+  color: #0ea5e9;
+}
+
+.grid {
+  justify-items: center;
+  margin: 1rem;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.img-seagal {
+  width: 14rem;
+  height: 20.375rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-radius: 1rem;
+}
+
+#directions {
+  border-top: #f97316 ridge;
+  border-bottom: #f97316 ridge;
+  grid-column: 1/4;
+}
+
+#current {
+  grid-column: 1/2;
+}
+
+#high {
+  grid-column: 3/4;
+}
+
+.heading {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 72px 27px 48px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
