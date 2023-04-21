@@ -1,6 +1,6 @@
 # Action Hero Memory Game
 
-Memory game built with React and styled partly by Tailwind CSS.
+Test your memory with Action Hero Superstar Steven Seagal!
 
 **Link to project:** <https://hddev8.github.io/memory-game/>
 
