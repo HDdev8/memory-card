@@ -4,7 +4,9 @@ Test your memory with Action Hero Superstar Steven Seagal!
 
 **Link to project:** <https://hddev8.github.io/memory-game/>
 
-![Memory Game demonstration](memorygame-demonstration.gif)
+<div align="center">
+  <img src="./memorygame-demonstration.gif" alt="memory game demonstration">
+</div>
 
 ## How It's Made
 
